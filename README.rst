@@ -6,6 +6,8 @@ files with a timestamp query parameter; the timestamp is based on the last modif
 time.
 
 ::
+
     {% load dated_static %}
     <link rel="stylesheet" href="{% dated_static 'css/style.css' %}" type="text/css" media="screen" charset="utf-8"/>
+    
 ::
